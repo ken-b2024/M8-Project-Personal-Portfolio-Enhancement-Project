@@ -1,0 +1,295 @@
+body {
+    background: radial-gradient(#FFFFFF, #015958);
+}
+header {
+    display:block;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to left, #45C4B0, #FFFFFF);
+    border-radius: 10px;
+    padding-top: 0.1%;
+    padding-bottom: 0.5%;
+    text-shadow: 5px 4px 10px #7A7A7A;
+}
+header h1 {
+    font-size: 30pt;
+}
+header h2 {
+    font-size: 26pt;
+}
+.nav-bar {
+    width: 100%;
+    background: linear-gradient(to right,#45C4B0, #FFFFFF);
+    text-shadow: 2px 4px 2px #7A7A7A;
+    border-radius: 10px;
+    text-align: center;
+    font-family:cursive;
+    font-size: 24pt;
+    font-weight: bolder;
+    margin-top: 33px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    height:115px;
+}
+.nav-list {
+    display: -webkit-inline-flex;
+}
+.nav-home {
+    list-style-type: none;
+    margin-right: 25px;
+    width: 125px;
+}
+.nav-home:hover {
+    font-size: 28pt;
+    font-weight: 1200;
+    background-color: aqua;
+    transition: 0.3s ease-in;
+}
+.nav-about {
+    list-style-type: none;
+    margin-right: 25px;
+    width: 145px;
+}
+.nav-about:hover {
+    font-size: 28pt;
+    font-weight: 1200;
+    background-color: aqua;
+    transition: 0.3s ease-in;
+}
+.nav-project {
+    list-style-type: none;
+    width: 205px;
+}
+.nav-project:hover {
+    font-size: 28pt;
+    font-weight: 1200;
+    background-color: aqua;
+    transition: 0.3s ease-in;
+}
+.fieldset {
+    border: 4px;
+    padding: 5px;
+    border-radius: 15px;
+    background: linear-gradient(to left, #45C4B0, #FFFFFF);
+}
+fieldset a:hover {
+    transition: color 0.5s ease;
+    color: forestgreen;
+}
+legend {
+    padding-top: 25px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+fieldset p {
+    font-size: 15pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.home-body {
+    position: absolute;
+    bottom: -280px;
+    left: 500px;
+    width: 58%;
+    height: 335px;
+    margin-top: 15px;
+    padding: 35px;
+    border-radius: 75%;
+    background: radial-gradient(#45C4B0,#FFFFFF);
+    font-size: 26pt;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 9pt;
+}
+.images {
+    position: absolute;
+    right: 400px;
+    width: 1850px;
+    height: 1850px;
+    border-radius: 50%;
+    margin-top: 25px
+}
+.img1 {
+    width: 275px;
+    position: absolute;
+    left: 790px;
+}
+.img1:hover {
+    width: 475px;
+    transition: 0.4s;
+}
+.img2 {
+    width: 300px;
+    position: absolute;
+    top: 1475px;
+    left: 750px;
+}
+.img2:hover {
+    width: 450px;
+    transition: 0.4s;
+}
+.img3 {
+    width: 300px;
+    position: absolute;
+    top: 300px;
+    left: 55px;
+}
+.img3:hover {
+    width: 450px;
+    transition: 0.4s;
+}
+.img4 {
+    width: 450px;
+    position: absolute;
+    top: 300px;
+    right: -45px;
+}
+.img4:hover {
+    width: 600px;
+    transition: 0.4s;
+}
+.img5 {
+    width: 250px;
+    position: absolute;
+    bottom: 350px;
+    right: 15px;
+}
+.img5:hover {
+    width: 400px;
+    transition: 0.4s;
+}
+.img6 {
+    width: 520px;
+    position: absolute;
+    bottom: 320px;
+    left: -25px;
+}
+.img6:hover {
+    width: 650px;
+    transition: 0.4s;
+}
+.img7 {
+    width: 300px;
+    position: absolute;
+    top: 685px;
+    left: -105px;
+}
+.img7:hover {
+    width: 450px;
+    transition: 0.4s;
+}
+.img8 {
+    width: 300px;
+    position: absolute;
+    top: 725px;
+    right: -250px;
+}
+.img8:hover {
+    width: 500px;
+    transition: 0.4s;
+}
+@media screen and (max-width: 2198px) {
+    .home-body {
+        display: block;
+        position: inherit;;
+        width: 100%;
+        height: 250px;
+        margin-top: 15px;
+        padding: 5px;
+        border-radius: 15px;
+        background: radial-gradient(#FFFFFF, #45C4B0);
+        font-size: 26pt;
+    }
+    .images {
+        display: none;
+        right: 400px;
+        width: 1850px;
+        height: 1850px;
+        border-radius: 50%;
+        margin-top: 25px
+    }
+}
+@media screen and (max-width: 1186px) {
+    .home-body {
+        display: block;
+        position: inherit;;
+        width: 100%;
+        height: 450px;
+        margin-top: 15px;
+        padding: 5px;
+        border-radius: 15px;
+        background: radial-gradient( #45C4B0, #FFFFFF);
+        font-size: 26pt;
+    }
+}
+@media screen and (max-width: 468px) {
+    .home-body {
+        display: block;
+        position: inherit;;
+        width: 100%;
+        height: 750px;
+        margin-top: 15px;
+        padding: 5px;
+        border-radius: 15px;
+        background: radial-gradient( #45C4B0, #FFFFFF);
+        font-size: 26pt;
+    }
+}
+@media screen and (max-width: 356px) {
+    .fieldset {
+        border: 4px ;
+        border-radius: 15px;
+        background: linear-gradient(to left, #45C4B0, #FFFFFF);
+    }
+}
+@media screen and (max-width:580px) {
+    .nav-bar {
+        width: 100%;
+        background: linear-gradient(to right,#45C4B0, #FFFFFF);
+        text-shadow: 2px 4px 2px #7A7A7A;
+        border-radius: 10px;
+        text-align: center;
+        font-family:cursive;
+        font-size: 24pt;
+        font-weight: bolder;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        padding-top: 5px;
+        height:185px;
+    }
+    .nav-list {
+        display:inline-flex;
+        flex-wrap: wrap;
+    }
+    .nav-home {
+        list-style-type: none;
+        margin-right: 25px;
+        width: 125px;
+    }
+    .nav-home:hover {
+        font-size: 28pt;
+        font-weight: 1200;
+        background-color: aqua;
+        transition: 0.3s ease-in;
+    }
+    .nav-about {
+        list-style-type: none;
+        margin-right: 25px;
+        width: 145px;
+    }
+    .nav-about:hover {
+        font-size: 28pt;
+        font-weight: 1200;
+        background-color: aqua;
+        transition: 0.3s ease-in;
+    }
+    .nav-project {
+        list-style-type: none;
+        width: 205px;
+    }
+    .nav-project:hover {
+        font-size: 28pt;
+        font-weight: 1200;
+        background-color: aqua;
+        transition: 0.3s ease-in;
+    }
+}

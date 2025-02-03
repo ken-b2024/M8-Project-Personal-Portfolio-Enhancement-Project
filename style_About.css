@@ -1,0 +1,193 @@
+body {
+    background: radial-gradient(#45C4B0, #FFFFFF);
+}
+.nav-bar {
+    width: 100%;
+    background: linear-gradient(to left,#45C4B0, #FFFFFF);
+    text-shadow: 2px 4px 2px #7A7A7A;
+    border-radius: 10px;
+    text-align: center;
+    font-family:cursive;
+    font-size: 24pt;
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    height:115px;
+}
+.nav-list {
+    display: -webkit-inline-flex;
+}
+.nav-home {
+    list-style-type: none;
+    margin-right: 25px;
+    width: 125px;
+}
+.nav-home:hover {
+    font-size: 28pt;
+    font-weight: 1200;
+    background-color: aqua;
+    transition: 0.3s ease-in;
+}
+.nav-about {
+    list-style-type: none;
+    margin-right: 25px;
+    width: 145px;
+}
+.nav-about:hover {
+    font-size: 28pt;
+    font-weight: 1200;
+    background-color: aqua;
+    transition: 0.3s ease-in;
+}
+.nav-project {
+    list-style-type: none;
+    width: 205px;
+}
+.nav-project:hover {
+    font-size: 28pt;
+    font-weight: 1200;
+    background-color: aqua;
+    transition: 0.3s ease-in;
+}
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.img {
+    position: absolute;
+    border-radius: 50px;
+    margin-top: 35px;
+    height: 1150px;
+    width: 750px;
+    left: 175px;
+}
+.img:hover {
+    width: 650px;
+    height: 1000px;
+    opacity: 65%;
+    transition: 0.6s;
+}
+div h2 {
+    text-decoration: underline double;
+    font-family: cursive;
+    font-size: 25pt;
+}
+div p {
+    width: 750px;
+    font-size: 26pt;
+}
+.education {
+    /* border: 3px solid midnightblue; */
+    margin-right: 65%;
+    margin-left: 50%;
+}
+.education h2 {
+    text-decoration: underline double;
+    font-family: cursive;
+    font-size: 25pt;
+}
+.education p {
+    width: 750px;
+    font-size: 26pt;
+}
+.education p:hover {
+    background-color: mistyrose;
+    border-radius: 25px;
+    transition: 0.8s;
+    width: 550px;
+    font-size: 26pt;
+    align-content: center;
+}
+@media screen and (max-width:1863px) {
+    .main-txt {
+        position: absolute;
+        text-align: center;
+        top: 1300px;
+    }
+    .img {
+        display: grid;
+        position: absolute;
+        left: 2%;
+        align-content: center;
+        margin-top: 25px;
+    }
+    .education {
+        position: absolute;
+        text-align: center;
+        text-wrap: wrap;
+    }
+}
+@media screen and (max-width:1551px) {
+    .main-txt {
+        position: absolute;
+        text-align: center;
+        top: 1300px;
+    }
+    .img {
+        display: grid;
+        position: absolute;
+        left: 2%;
+        align-content: center;
+        margin-top: 25px;
+    }
+    .education {
+        bottom: -1700px;
+        right: -670px;
+        position: absolute;
+        text-align: center;
+        text-wrap: wrap;
+    }
+}
+@media screen and (max-width: 769px) {
+    .nav-bar {
+        width: 100%;
+        background: linear-gradient(to right,#45C4B0, #FFFFFF);
+        text-shadow: 2px 4px 2px #7A7A7A;
+        border-radius: 10px;
+        text-align: center;
+        font-family:cursive;
+        font-size: 24pt;
+        font-weight: bolder;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        padding-top: 5px;
+        height:185px;
+    }
+    .nav-list {
+        display:inline-flex;
+        flex-wrap: wrap;
+    }
+    .nav-home {
+        list-style-type: none;
+        margin-right: 25px;
+        width: 125px;
+    }
+    .nav-home:hover {
+        font-size: 28pt;
+        font-weight: 1200;
+        background-color: aqua;
+        transition: 0.3s ease-in;
+    }
+    .nav-about {
+        list-style-type: none;
+        margin-right: 25px;
+        width: 145px;
+    }
+    .nav-about:hover {
+        font-size: 28pt;
+        font-weight: 1200;
+        background-color: aqua;
+        transition: 0.3s ease-in;
+    }
+    .nav-project {
+        list-style-type: none;
+        width: 205px;
+    }
+    .nav-project:hover {
+        font-size: 28pt;
+        font-weight: 1200;
+        background-color: aqua;
+        transition: 0.3s ease-in;
+    }
+}

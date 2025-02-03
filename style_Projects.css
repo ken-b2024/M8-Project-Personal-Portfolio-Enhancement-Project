@@ -1,0 +1,106 @@
+body {
+    background: -webkit-radial-gradient(#015958, #FFFFFF);
+}
+.nav-bar {
+    /* display: flex; */
+    width: 100%;
+    background: linear-gradient(to right,#45C4B0, #FFFFFF);
+    text-shadow: 2px 4px 2px #7A7A7A;
+    border-radius: 10px;
+    text-align: center;
+    font-family:cursive;
+    font-size: 24pt;
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    height:115px;
+}
+.nav-list {
+    display: -webkit-inline-flex;
+}
+.nav-home {
+    list-style-type: none;
+    margin-right: 25px;
+    width: 125px;
+}
+.nav-home:hover {
+    font-size: 28pt;
+    font-weight: 1200;
+    background-color: aqua;
+    transition: 0.3s ease-in;
+}
+.nav-about {
+    list-style-type: none;
+    margin-right: 25px;
+    width: 145px;
+}
+.nav-about:hover {
+    font-size: 28pt;
+    font-weight: 1200;
+    background-color: aqua;
+    transition: 0.3s ease-in;
+}
+.nav-project {
+    list-style-type: none;
+    width: 205px;
+}
+.nav-project:hover {
+    font-size: 28pt;
+    font-weight: 1200;
+    background-color: aqua;
+    transition: 0.3s ease-in;
+}
+h2 {
+    text-decoration: underline double;
+    font-family: cursive;
+    font-size: 25pt;
+}
+.table {
+    font-size: 24pt;
+    box-shadow:8px 8px #023535;
+}
+tr:nth-child {
+    background-color:lightblue;
+    font-size: 14pt;
+}
+table td:hover {
+    background-color: darkblue;
+    color: aliceblue;
+    font-size: 28pt;
+}
+.container {
+    display: flex;
+    gap: 25px;
+    flex-wrap: nowrap;
+    flex-direction:row;
+}
+div h2 {
+    display: block;
+    text-decoration: underline double;
+    font-family: cursive;
+    font-size: 25pt;
+}
+div h3 {
+    text-decoration: underline double;
+    font-family: cursive;
+    font-size: 20pt;
+}
+div p {
+    font-size: 25pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div a {
+    display: flex;
+    margin-bottom: 25px;
+    font-size: 22pt;
+}
+div a:hover {
+    transition: color 0.5s ease;
+    color: forestgreen;
+}
+.img:hover {
+    width: 750px;
+    opacity: 75%;
+    transition: 0.8s;
+}
