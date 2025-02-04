@@ -91,13 +91,14 @@ div p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 div a {
+    color: salmon;
     display: flex;
     margin-bottom: 25px;
     font-size: 22pt;
 }
-div a:hover {
-    transition: color 0.5s ease;
-    color: forestgreen;
+div a:hover:focus {
+    color: midnightblue;
+    margin-right: 300px;
 }
 .img:hover {
     width: 750px;
