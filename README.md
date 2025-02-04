@@ -1,29 +1,29 @@
 # M8-Project-Personal-Portfolio-Enhancement-Project
-##Overview
+## Overview
 
 Welcome to my personal web portfolio! This site serves as a showcase of my skills, projects, and experience in software engineering and web development. It includes details about my background, education, technical proficiency, and personal projects.
 
-##Features
+## Features
 
-Home Page: Introduction and quick overview of my skills and technologies I work with.
+• **Home Page**: Introduction and quick overview of my skills and technologies I work with.
 
-About Page: Detailed information about my background, education, and personal journey into software development.
+• **About Page**: Detailed information about my background, education, and personal journey into software development.
 
-Projects Page: List of projects I have worked on, along with descriptions and links to their respective repositories.
+• **Projects Page**: List of projects I have worked on, along with descriptions and links to their respective repositories.
 
-##Technologies Used
+## Technologies Used
 
-Frontend: HTML, CSS, JavaScript
+• **Frontend**: HTML, CSS, JavaScript
 
-Backend: Python, Flask (future integration)
+• **Backend**: Python, Flask (future integration)
 
-Database: SQL (planned for future updates)
+• **Database**: SQL (planned for future updates)
 
-Version Control: Git & GitHub
+• **Version Control**: Git & GitHub
 
-Deployment: Hosted via GitHub Pages (or future deployment platform)
+• **Deployment**: Hosted via GitHub Pages (or future deployment platform)
 
-##File Structure
+## File Structure
 
 /portfolio_Home.html  - Home page
 /portfolio_About.html - About page
@@ -33,7 +33,7 @@ Deployment: Hosted via GitHub Pages (or future deployment platform)
 /style_Projects.css - Styles for projects page
 /README.md - This document
 
-##Setup Instructions
+## Setup Instructions
 
 1. Clone the repository:
 
