@@ -87,9 +87,9 @@ fieldset p {
 }
 .home-body {
     position: absolute;
-    bottom: -280px;
-    left: 500px;
-    width: 58%;
+    bottom: -80px;
+    left: 825px;
+    width: 45%;
     height: 335px;
     margin-top: 15px;
     padding: 35px;
@@ -102,7 +102,7 @@ fieldset p {
 }
 .images {
     position: absolute;
-    right: 400px;
+    right: 925px;
     width: 1850px;
     height: 1850px;
     border-radius: 50%;
