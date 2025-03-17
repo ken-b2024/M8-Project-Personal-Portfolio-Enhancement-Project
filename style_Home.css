@@ -87,25 +87,25 @@ fieldset p {
 }
 .home-body {
     position: absolute;
-    bottom: -80px;
-    left: 825px;
+    bottom: -300px;
+    left: 725px;
     width: 45%;
     height: 335px;
     margin-top: 15px;
     padding: 35px;
-    border-radius: 75%;
+    border-radius: 50%;
     background: radial-gradient(#45C4B0,#FFFFFF);
-    font-size: 26pt;
+    font-size: 23pt;
     font-weight: bold;
     text-align: center;
     word-spacing: 9pt;
 }
 .images {
     position: absolute;
-    right: 925px;
+    border-radius: 75%;
+    right:400px;
     width: 1850px;
     height: 1850px;
-    border-radius: 50%;
     margin-top: 25px
 }
 .img1 {
@@ -120,7 +120,7 @@ fieldset p {
 .img2 {
     width: 300px;
     position: absolute;
-    top: 1475px;
+    top: 1675px;
     left: 750px;
 }
 .img2:hover {
